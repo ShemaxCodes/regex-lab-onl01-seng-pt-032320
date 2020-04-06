@@ -1,5 +1,8 @@
 def starts_with_a_vowel?(word)
-word.match(/^[aeiouAEIOU]/) || false  
+if word.match(/^[aeiouAEIOU]/) then 
+  return true    
+  else 
+    return false # Originally tried the double pipe here and couldn't get it read true on the left side. False worked.
 end 
 end
 
